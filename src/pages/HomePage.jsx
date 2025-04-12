@@ -60,7 +60,7 @@ const HomePage = () => {
               textAlign: 'center',
               color: '#ffffff',
               borderRadius: '16px',
-              margin: '80px auto',
+              margin: '40px auto',
               maxWidth: '80vw',
               background: 'rgba(255, 255, 255, 0.2)', // Translucent background
               backdropFilter: 'blur(15px)', // Glassmorphism blur
