@@ -25,7 +25,6 @@ const HomePage = () => {
   return (
     <div
       style={{
-        overflowX: 'hidden',
         background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.5))', // Glassmorphism background
         backdropFilter: 'blur(10px)', // Blur effect
         minHeight: '100vh',
