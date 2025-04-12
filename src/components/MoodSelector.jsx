@@ -32,7 +32,7 @@ const MoodSelector = ({ moods, onMoodSelect }) => {
         justifyContent: 'center',
         alignItems: 'center',
         width: '100vw',
-        fontFamily: '"Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif', // Updated font
+        fontFamily: '"Anton", sans-serif', // Updated font
         color: '#ffffff',
       }}
     >
@@ -52,7 +52,6 @@ const MoodSelector = ({ moods, onMoodSelect }) => {
             textTransform: 'uppercase',
             letterSpacing: '2px',
             color: '#00ffff',
-            fontFamily: '"Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif', // Updated font
           }}
         >
           {translations[language].title}
@@ -74,7 +73,7 @@ const MoodSelector = ({ moods, onMoodSelect }) => {
               boxShadow: '0 4px 10px rgba(0, 255, 255, 0.2)',
               transition: 'all 0.3s ease',
               animation: 'float 3s infinite ease-in-out', // Updated animation
-              fontFamily: '"Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif', // Updated font
+              fontFamily: '"Anton", sans-serif', // Updated font
             }}
           >
             <option value="" disabled>

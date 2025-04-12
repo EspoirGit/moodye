@@ -4,128 +4,152 @@
         "title": "Happy",
         "artist": "Pharrell Williams",
         "link": "https://www.youtube.com/watch?v=ZbZSe6N_BXs",
-        "audio": "https://example.com/audio/happy.mp3"
+        "audio": "https://example.com/audio/happy.mp3",
+        "color": "#FFD700" 
       },
       {
         "title": "Can't Stop The Feeling!",
         "artist": "Justin Timberlake",
         "link": "https://www.youtube.com/watch?v=ru0K8uYEZWw",
-        "audio": "https://example.com/audio/cant_stop_the_feeling.mp3"
+        "audio": "https://example.com/audio/cant_stop_the_feeling.mp3",
+        "color": "#FFD700" 
       },
       {
         "title": "Uptown Funk",
         "artist": "Mark Ronson ft. Bruno Mars",
-        "link": "https://www.youtube.com/watch?v=OPf0YbXqDm0"
+        "link": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+        "color": "#FFD700" 
       },
       {
         "title": "Shake It Off",
         "artist": "Taylor Swift",
-        "link": "https://www.youtube.com/watch?v=nfWlot6h_JM"
+        "link": "https://www.youtube.com/watch?v=nfWlot6h_JM",
+        "color": "#FFD700" 
       },
       {
         "title": "Walking on Sunshine",
         "artist": "Katrina and the Waves",
-        "link": "https://www.youtube.com/watch?v=iPUmE-tne5U"
+        "link": "https://www.youtube.com/watch?v=iPUmE-tne5U",
+        "color": "#FFD700" 
       },
       {
         "title": "Don't Stop Me Now",
         "artist": "Queen",
-        "link": "https://www.youtube.com/watch?v=HgzGwKwLmgM"
+        "link": "https://www.youtube.com/watch?v=HgzGwKwLmgM",
+        "color": "#FFD700" 
       },
       {
         "title": "Good as Hell",
         "artist": "Lizzo",
-        "link": "https://www.youtube.com/watch?v=5L6JXj5nIEY"
+        "link": "https://www.youtube.com/watch?v=5L6JXj5nIEY",
+        "color": "#FFD700" 
       },
       {
         "title": "Can't Stop The Feeling",
         "artist": "Justin Timberlake",
         "link": "https://www.youtube.com/watch?v=ru0K8uYEZWw",
-        "audio": "https://example.com/audio/cant_stop_the_feeling.mp3"
+        "audio": "https://example.com/audio/cant_stop_the_feeling.mp3",
+        "color": "#FFD700" 
       }
     ],
     "sad": [
       {
         "title": "Someone Like You",
         "artist": "Adele",
-        "link": "https://www.youtube.com/watch?v=hLQl3WQQoQ0"
+        "link": "https://www.youtube.com/watch?v=hLQl3WQQoQ0",
+        "color": "#1E90FF" 
       },
       {
         "title": "Let Her Go",
         "artist": "Passenger",
-        "link": "https://www.youtube.com/watch?v=RBumgq5yVrA"
+        "link": "https://www.youtube.com/watch?v=RBumgq5yVrA",
+        "color": "#1E90FF" 
       },
       {
         "title": "The Night We Met",
         "artist": "Lord Huron",
-        "link": "https://www.youtube.com/watch?v=JtJzK4V7xDQ"
+        "link": "https://www.youtube.com/watch?v=JtJzK4V7xDQ",
+        "color": "#1E90FF" 
       },
       {
         "title": "All I Want",
         "artist": "Kodaline",
-        "link": "https://www.youtube.com/watch?v=4Kp7mIjpnt4"
+        "link": "https://www.youtube.com/watch?v=4Kp7mIjpnt4",
+        "color": "#1E90FF" 
       },
       {
         "title": "Tears in Heaven",
         "artist": "Eric Clapton",
-        "link": "https://www.youtube.com/watch?v=JxPj3GAYY6A"
+        "link": "https://www.youtube.com/watch?v=JxPj3GAYY6A",
+        "color": "#1E90FF" 
       },
       {
         "title": "Say You Love Me",
         "artist": "Jessie Ware",
-        "link": "https://www.youtube.com/watch?v=jlJofwTM7b4"
+        "link": "https://www.youtube.com/watch?v=jlJofwTM7b4",
+        "color": "#1E90FF" 
       },
       {
         "title": "The Scientist",
         "artist": "Coldplay",
-        "link": "https://www.youtube.com/watch?v=RB-RcX5DS5I"
+        "link": "https://www.youtube.com/watch?v=RB-RcX5DS5I",
+        "color": "#1E90FF" 
       },
       {
         "title": "Skinny Love",
         "artist": "Birdy",
-        "link": "https://www.youtube.com/watch?v=ssdgFoHLwnk"
+        "link": "https://www.youtube.com/watch?v=ssdgFoHLwnk",
+        "color": "#1E90FF" 
       }
     ],
     "relaxed": [
       {
         "title": "Weightless",
         "artist": "Marconi Union",
-        "link": "https://www.youtube.com/watch?v=UfcAVejslrU"
+        "link": "https://www.youtube.com/watch?v=UfcAVejslrU",
+        "color": "#98FB98" 
       },
       {
         "title": "Sunset Lover",
         "artist": "Petit Biscuit",
-        "link": "https://www.youtube.com/watch?v=4DZyR0tTo10"
+        "link": "https://www.youtube.com/watch?v=4DZyR0tTo10",
+        "color": "#98FB98" 
       },
       {
         "title": "Night Owl",
         "artist": "Galimatias",
-        "link": "https://www.youtube.com/watch?v=kUswTzRQ6Cw"
+        "link": "https://www.youtube.com/watch?v=kUswTzRQ6Cw",
+        "color": "#98FB98" 
       },
       {
         "title": "Cold Little Heart",
         "artist": "Michael Kiwanuka",
-        "link": "https://www.youtube.com/watch?v=IhIguI7JDeE"
+        "link": "https://www.youtube.com/watch?v=IhIguI7JDeE",
+        "color": "#98FB98" 
       },
       {
         "title": "Lost Cause",
         "artist": "Billie Eilish",
-        "link": "https://www.youtube.com/watch?v=byR-IuEddBc"
+        "link": "https://www.youtube.com/watch?v=byR-IuEddBc",
+        "color": "#98FB98" 
       },
       {
         "title": "Breathe Me",
         "artist": "Sia",
-        "link": "https://www.youtube.com/watch?v=ghPcYqn0p4Y"
+        "link": "https://www.youtube.com/watch?v=ghPcYqn0p4Y",
+        "color": "#98FB98" 
       },
       {
         "title": "Banana Pancakes",
         "artist": "Jack Johnson",
-        "link": "https://www.youtube.com/watch?v=ZlJ9P4dXfto"
+        "link": "https://www.youtube.com/watch?v=ZlJ9P4dXfto",
+        "color": "#98FB98" 
       },
       {
         "title": "Holocene",
         "artist": "Bon Iver",
-        "link": "https://www.youtube.com/watch?v=TZ2WgY57DqY"
+        "link": "https://www.youtube.com/watch?v=TZ2WgY57DqY",
+        "color": "#98FB98" 
       }
     ],
     "energetic": [
@@ -133,43 +157,51 @@
         "title": "Eye of the Tiger",
         "artist": "Survivor",
         "link": "https://www.youtube.com/watch?v=btPJPFnesV4",
-        "audio": "https://example.com/audio/eye_of_the_tiger.mp3"
+        "audio": "https://example.com/audio/eye_of_the_tiger.mp3",
+        "color": "#FF4500" 
       },
       {
         "title": "Titanium",
         "artist": "David Guetta ft. Sia",
-        "link": "https://www.youtube.com/watch?v=JRfuAukYTKg"
+        "link": "https://www.youtube.com/watch?v=JRfuAukYTKg",
+        "color": "#FF4500" 
       },
       {
         "title": "Stronger",
         "artist": "Kanye West",
-        "link": "https://www.youtube.com/watch?v=3KkUeRPjc-Y"
+        "link": "https://www.youtube.com/watch?v=3KkUeRPjc-Y",
+        "color": "#FF4500" 
       },
       {
         "title": "Don't Stop Believin'",
         "artist": "Journey",
-        "link": "https://www.youtube.com/watch?v=1k8craCGpgs"
+        "link": "https://www.youtube.com/watch?v=1k8craCGpgs",
+        "color": "#FF4500" 
       },
       {
         "title": "Lose Yourself",
         "artist": "Eminem",
-        "link": "https://www.youtube.com/watch?v=_Yhyp-_hX2s"
+        "link": "https://www.youtube.com/watch?v=_Yhyp-_hX2s",
+        "color": "#FF4500" 
       },
       {
         "title": "Happy Now",
         "artist": "Zedd",
-        "link": "https://www.youtube.com/watch?v=8c0Y2l1KACo"
+        "link": "https://www.youtube.com/watch?v=8c0Y2l1KACo",
+        "color": "#FF4500" 
       },
       {
         "title": "On Top of the World",
         "artist": "Imagine Dragons",
-        "link": "https://www.youtube.com/watch?v=w5tWYmI6Bno"
+        "link": "https://www.youtube.com/watch?v=w5tWYmI6Bno",
+        "color": "#FF4500" 
       },
       {
         "title": "Blinding Lights",
         "artist": "The Weeknd",
         "link": "https://www.youtube.com/watch?v=4NRXx6U8ABQ",
-        "audio": "https://example.com/audio/blinding_lights.mp3"
+        "audio": "https://example.com/audio/blinding_lights.mp3",
+        "color": "#FF4500" 
       }
     ]
   }
