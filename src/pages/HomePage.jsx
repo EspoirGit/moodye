@@ -25,26 +25,27 @@ const HomePage = () => {
     return (
         <div
             style={{
-                background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.5))', // Glassmorphism background
-                backdropFilter: 'blur(10px)', // Blur effect
+                background: 'linear-gradient(135deg, #ffffff, #f0f0f0)', // White gradient background
+                backdropFilter: 'blur(10px)',
                 minHeight: '100vh',
                 minWidth: '100vw',
                 fontFamily: 'Poppins, Arial, sans-serif',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
-                justifyContent: 'space-between', // Adjust for footer
+                justifyContent: 'space-between',
             }}
         >
             <div style={{ flex: 1, width: '100%' }}>
                 <h1
                     style={{
                         textAlign: 'center',
-                        color: '#ffffff',
+                        color: '#000000', // Black text for contrast
                         marginBottom: '20px',
                         marginTop: '80px',
                         fontWeight: 'bold',
-                        textShadow: '0 4px 10px rgba(0, 0, 0, 0.5)', // Subtle text shadow
+                        fontSize: '3rem',
+                        textShadow: '0 2px 5px rgba(0, 0, 0, 0.2)', // Subtle shadow
                     }}
                 >
                     Welcome to Moodye
@@ -58,17 +59,16 @@ const HomePage = () => {
                         style={{
                             padding: '30px 20px',
                             textAlign: 'center',
-                            color: '#ffffff',
+                            color: '#000000', // Black text for contrast
                             borderRadius: '16px',
                             margin: '40px auto',
                             maxWidth: '80vw',
-                            background: 'rgba(255, 255, 255, 0.2)', // Translucent background
-                            backdropFilter: 'blur(15px)', // Glassmorphism blur
-                            boxShadow: '0 8px 32px rgba(0, 0, 0, 0.2)', // Glassmorphism shadow
-                            border: '1px solid rgba(255, 255, 255, 0.2)', // Subtle border
+                            background: 'rgba(255, 255, 255, 0.9)', // White translucent background
+                            backdropFilter: 'blur(15px)',
+                            boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)', // Softer shadow
+                            border: '1px solid rgba(0, 0, 0, 0.1)', // Subtle border
                         }}
                     >
-
                         <ul
                             style={{
                                 listStyle: 'none',
@@ -85,13 +85,13 @@ const HomePage = () => {
                                         justifyContent: 'space-between',
                                         padding: '12px 16px',
                                         marginBottom: '10px',
-                                        backgroundColor: song.color, // Use the color from the JSON
+                                        backgroundColor: song.color,
                                         borderRadius: '12px',
-                                        border: '1px solid rgba(255, 255, 255, 0.2)', // Subtle border
+                                        border: '1px solid rgba(0, 0, 0, 0.1)', // Subtle border
                                         animation: isAnimating
                                             ? `fadeOut 0.5s ease ${index * 0.2}s forwards`
-                                            : `fadeIn 0.5s ease ${index * 0.2}s forwards`, // Animation with delay
-                                        opacity: 0, // Start hidden
+                                            : `fadeIn 0.5s ease ${index * 0.2}s forwards`,
+                                        opacity: 0,
                                     }}
                                 >
                                     <div
@@ -104,7 +104,7 @@ const HomePage = () => {
                                         <div
                                             style={{
                                                 fontSize: '20px',
-                                                color: '#ffffff',
+                                                color: '#000000', // Black icon for contrast
                                             }}
                                         >
                                             🎵
@@ -115,7 +115,7 @@ const HomePage = () => {
                                                     margin: 0,
                                                     fontSize: '15px',
                                                     fontWeight: 'bold',
-                                                    color: '#ffffff',
+                                                    color: '#000000', // Black text for contrast
                                                 }}
                                             >
                                                 {song.title}
@@ -124,7 +124,7 @@ const HomePage = () => {
                                                 style={{
                                                     margin: 0,
                                                     fontSize: '13px',
-                                                    color: '#ffffff',
+                                                    color: '#000000', // Black text for contrast
                                                 }}
                                             >
                                                 {song.artist}
@@ -138,8 +138,8 @@ const HomePage = () => {
                                         style={{
                                             padding: '6px 12px',
                                             fontSize: '13px',
-                                            color: '#ffffff',
-                                            backgroundColor: 'rgba(0, 0, 0, 0.8)', // Translucent button
+                                            color: '#ffffff', // White text for button
+                                            backgroundColor: '#000000', // Black button
                                             borderRadius: '4px',
                                             textDecoration: 'none',
                                             fontWeight: '600',
@@ -151,7 +151,7 @@ const HomePage = () => {
                                             e.target.style.color = '#000000';
                                         }}
                                         onMouseOut={(e) => {
-                                            e.target.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+                                            e.target.style.backgroundColor = '#000000';
                                             e.target.style.color = '#ffffff';
                                         }}
                                     >
@@ -168,12 +168,12 @@ const HomePage = () => {
                     marginTop: '20px',
                     marginBottom: '20px',
                     textAlign: 'center',
-                    color: '#ffffff',
+                    color: '#000000', // Black text for footer
                     fontSize: '12px',
-                    opacity: 0.6,
+                    opacity: 0.8,
                 }}
             >
-                Build with ❤ By <a style={{color:'#ffffff', opacity:1, textDecoration: 'underline'}} href="https://web.facebook.com/espoir.keven.2025"> Espoir Keven</a>
+                Build with ❤ By <a style={{color:'#000000', opacity:1, textDecoration: 'underline'}} href="https://web.facebook.com/espoir.keven.2025"> Espoir Keven</a>
             </footer>
         </div>
     );

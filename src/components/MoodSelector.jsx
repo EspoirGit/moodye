@@ -51,9 +51,10 @@ const MoodSelector = ({ moods, onMoodSelect }) => {
           style={{
             marginBottom: '20px',
             fontSize: '24px',
-            textTransform: '',
-            letterSpacing: '',
-            color: '#00ffff',
+            textTransform: '', // Added uppercase for emphasis
+            letterSpacing: '0px', // Added letter spacing for readability
+            color: '#000000', // Black text for contrast with white background
+            textShadow: '0 2px 5px rgba(0, 0, 0, 0.1)', // Subtle shadow for better visibility
           }}
         >
           {translations[language].title}
