@@ -42,6 +42,7 @@ const HomePage = () => {
             textAlign: 'center',
             color: '#ffffff',
             marginBottom: '20px',
+            marginTop: '80px',
             fontWeight: 'bold',
             textShadow: '0 4px 10px rgba(0, 0, 0, 0.5)', // Subtle text shadow
           }}

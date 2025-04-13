@@ -32,7 +32,9 @@ const MoodSelector = ({ moods, onMoodSelect }) => {
         justifyContent: 'center',
         alignItems: 'center',
         width: '100vw',
-        fontFamily: '"Anton", sans-serif', // Updated font
+        marginTop: '50px',
+        marginBottom: '50px',
+        fontFamily: '"Poppins", sans-serif', // Updated font
         color: '#ffffff',
       }}
     >
@@ -49,8 +51,8 @@ const MoodSelector = ({ moods, onMoodSelect }) => {
           style={{
             marginBottom: '20px',
             fontSize: '24px',
-            textTransform: 'uppercase',
-            letterSpacing: '2px',
+            textTransform: '',
+            letterSpacing: '',
             color: '#00ffff',
           }}
         >
