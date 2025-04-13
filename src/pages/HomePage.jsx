@@ -25,6 +25,8 @@ const HomePage = () => {
     return (
         <div
             style={{
+                position: 'relative', // For positioning the animation
+                overflow: 'hidden', // Prevent overflow of the animation
                 background: 'linear-gradient(135deg, #ffffff, #f0f0f0)', // White gradient background
                 backdropFilter: 'blur(10px)',
                 minHeight: '100vh',
@@ -36,6 +38,53 @@ const HomePage = () => {
                 justifyContent: 'space-between',
             }}
         >
+            {/* Musical Notes Rain Animation */}
+            <div
+                style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    pointerEvents: 'none', // Prevent interaction with the animation
+                    zIndex: 0, // Place behind other content
+                }}
+            >
+                {[...Array(50)].map((_, i) => (
+                    <div
+                        key={i}
+                        style={{
+                            position: 'absolute',
+                            top: `${Math.random() * 100}%`,
+                            left: `${Math.random() * 100}%`,
+                            fontSize: `${Math.random() * 20 + 10}px`, // Random size for notes
+                            color: 'rgba(0, 0, 0, 0.1)', // Transparent black
+                            animation: `fall ${Math.random() * 5 + 5}s linear infinite`,
+                            animationDelay: `${Math.random() * 5}s`,
+                        }}
+                    >
+                        🎵
+                    </div>
+                ))}
+            </div>
+            <style>
+                {`
+                    @keyframes fall {
+                        0% {
+                            transform: translateY(-100%);
+                            opacity: 0.5;
+                        }
+                        50% {
+                            opacity: 0.8;
+                        }
+                        100% {
+                            transform: translateY(100vh);
+                            opacity: 0;
+                        }
+                    }
+                `}
+            </style>
+            {/* Main Content */}
             <div
                 style={{
                     flex: 1,
@@ -45,6 +94,7 @@ const HomePage = () => {
                     alignItems: 'center', // Center elements horizontally
                     justifyContent: 'center', // Center elements vertically
                     textAlign: 'center', // Center text
+                    zIndex: 1, // Place above the animation
                 }}
             >
                 <h1
