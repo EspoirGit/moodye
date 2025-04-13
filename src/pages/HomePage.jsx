@@ -199,7 +199,7 @@ const HomePage = () => {
             </div>
             <footer
                 style={{
-                    marginTop: '20px',
+                    marginTop: '50px',
                     marginBottom: '20px',
                     textAlign: 'center',
                     color: '#000000', // Black text for footer
