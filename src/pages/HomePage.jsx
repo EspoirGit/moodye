@@ -36,20 +36,44 @@ const HomePage = () => {
                 justifyContent: 'space-between',
             }}
         >
-            <div style={{ flex: 1, width: '100%' }}>
+            <div
+                style={{
+                    flex: 1,
+                    width: '100%',
+                    display: 'flex', // Align elements in a column
+                    flexDirection: 'column',
+                    alignItems: 'center', // Center elements horizontally
+                    justifyContent: 'center', // Center elements vertically
+                    textAlign: 'center', // Center text
+                }}
+            >
                 <h1
                     style={{
-                        textAlign: 'center',
                         color: '#000000', // Black text for contrast
-                        marginBottom: '20px',
+                        marginBottom: '10px', // Adjusted margin for spacing
                         marginTop: '80px',
                         fontWeight: 'bold',
                         fontSize: 'clamp(2rem, 5vw, 3rem)', // Dynamically adjust font size
                         textShadow: '0 2px 5px rgba(0, 0, 0, 0.2)', // Subtle shadow
                     }}
                 >
-                    Welcome to Moodye
+                    Welcome sur Moodye
                 </h1>
+                <p
+                    style={{
+                        color: '#555555', // Subtle gray for contrast
+                        fontSize: '1rem',
+                        marginBottom: '20px', // Space below the description
+                        fontStyle: 'italic',
+                        fontFamily: '"Quicksand", sans-serif', // Rounded, fun, and light font
+                        width: 'clamp(60%, 40vw, 80%)', // Adjust width to match title and screen size
+                        lineHeight: '1.8', // Improved readability
+                    }}
+                >
+                    Et si chaque émotion avait sa bande-son ? <br />
+                    <span style={{ fontWeight: 'bold' }}>Moodye</span> est ton compagnon d’écoute émotionnel : tu choisis ton mood, et l’app te guide vers les sons qui te ressemblent.
+                    Un voyage musical personnalisé, qui commence là où tes émotions prennent vie.
+                </p>
                 <style>
                     {`
                         @media (max-width: 768px) {
@@ -154,7 +178,7 @@ const HomePage = () => {
                                             borderRadius: '4px',
                                             textDecoration: 'none',
                                             fontWeight: '600',
-                                            textTransform: 'uppercase',
+                                            textTransform: '',
                                             transition: 'background-color 0.3s ease',
                                         }}
                                         onMouseOver={(e) => {
@@ -166,7 +190,7 @@ const HomePage = () => {
                                             e.target.style.color = '#ffffff';
                                         }}
                                     >
-                                        Listen
+                                        Mooder
                                     </a>
                                 </li>
                             ))}

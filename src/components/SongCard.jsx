@@ -97,7 +97,7 @@ const SongCard = ({ song }) => {
             e.target.style.color = '#000000';
           }}
         >
-          Listen
+          Mooder
         </a>
       </div>
     </div>
