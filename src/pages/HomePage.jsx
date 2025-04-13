@@ -44,12 +44,23 @@ const HomePage = () => {
                         marginBottom: '20px',
                         marginTop: '80px',
                         fontWeight: 'bold',
-                        fontSize: '3rem',
+                        fontSize: 'clamp(2rem, 5vw, 3rem)', // Dynamically adjust font size
                         textShadow: '0 2px 5px rgba(0, 0, 0, 0.2)', // Subtle shadow
                     }}
                 >
                     Welcome to Moodye
                 </h1>
+                <style>
+                    {`
+                        @media (max-width: 768px) {
+                            h1 {
+                                font-size: 2rem; /* Smaller font size for mobile */
+                                margin-top: 40px; /* Reduced top margin for mobile */
+                                margin-bottom: 10px; /* Reduced bottom margin for mobile */
+                            }
+                        }
+                    `}
+                </style>
                 <MoodSelector
                     moods={Object.keys(mockSongs)}
                     onMoodSelect={handleMoodSelect}
