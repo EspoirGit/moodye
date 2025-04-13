@@ -96,8 +96,7 @@ const HomePage = () => {
                             textAlign: 'center',
                             color: '#000000', // Black text for contrast
                             borderRadius: '16px',
-                            margin: '40px auto',
-                            maxWidth: '80vw',
+                            width: '60vw',
                             background: 'rgba(255, 255, 255, 0.9)', // White translucent background
                             backdropFilter: 'blur(15px)',
                             boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)', // Softer shadow

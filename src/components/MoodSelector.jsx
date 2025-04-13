@@ -32,7 +32,7 @@ const MoodSelector = ({ moods, onMoodSelect }) => {
         justifyContent: 'center',
         alignItems: 'center',
         width: '100vw',
-        marginTop: '50px',
+        marginTop: '',
         marginBottom: '50px',
         fontFamily: '"Poppins", sans-serif', // Updated font
         color: '#ffffff',
