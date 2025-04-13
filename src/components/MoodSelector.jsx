@@ -33,7 +33,7 @@ const MoodSelector = ({ moods, onMoodSelect }) => {
         alignItems: 'center',
         width: '100vw',
         marginTop: '',
-        marginBottom: '50px',
+        marginBottom: '30px',
         fontFamily: '"Poppins", sans-serif', // Updated font
         color: '#ffffff',
       }}
@@ -67,23 +67,46 @@ const MoodSelector = ({ moods, onMoodSelect }) => {
               width: '100%',
               padding: '10px',
               fontSize: '16px',
-              borderRadius: '6px',
+              borderRadius: '12px', // Rounded corners for the dropdown
               border: '1px solid rgba(255, 255, 255, 0.2)',
-              backgroundColor: 'rgba(0, 0, 0, 0.5)',
+              backgroundColor: 'rgba(0, 0, 0, 0.5)', // Translucent background
               color: '#ffffff',
               cursor: 'pointer',
               outline: 'none',
               boxShadow: '0 4px 10px rgba(0, 255, 255, 0.2)',
               transition: 'all 0.3s ease',
-              animation: 'float 3s infinite ease-in-out', // Updated animation
-              fontFamily: '"Anton", sans-serif', // Updated font
+              fontFamily: '"Anton", sans-serif',
+              appearance: 'none',
+              backgroundImage: 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'white\'%3E%3Cpath d=\'M7 10l5 5 5-5z\'/%3E%3C/svg%3E")',
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'right 10px center',
+              backgroundSize: '16px',
             }}
           >
             <option value="" disabled>
               {translations[language].placeholder}
             </option>
             {moods.map((mood) => (
-              <option key={mood} value={mood}>
+              <option
+                key={mood}
+                value={mood}
+                style={{
+                  backgroundColor: 'rgba(0, 0, 0, 0.7)', // Translucent background for options
+                  color: '#ffffff', // White text for dropdown items
+                  padding: '10px',
+                  fontFamily: '"Poppins", sans-serif', // Consistent font
+                  fontSize: '14px', // Slightly smaller font for options
+                  border: 'none', // Remove default borders
+                  borderRadius: '8px', // Rounded corners for options
+                  transition: 'background-color 0.3s ease',
+                }}
+                onMouseOver={(e) => {
+                  e.target.style.backgroundColor = 'rgba(50, 50, 50, 0.8)'; // Highlight on hover
+                }}
+                onMouseOut={(e) => {
+                  e.target.style.backgroundColor = 'rgba(0, 0, 0, 0.7)'; // Reset background on mouse out
+                }}
+              >
                 {mood}
               </option>
             ))}

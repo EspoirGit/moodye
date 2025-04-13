@@ -11,6 +11,7 @@ const SongCard = ({ song }) => {
         maxWidth: '400px',
         height: '150px',
         padding: '20px',
+        marginBottom: '20px',
         borderRadius: '12px',
         backgroundColor: 'rgba(255, 255, 255, 0.1)',
         boxShadow: '0 8px 20px rgba(0, 255, 255, 0.3)',
