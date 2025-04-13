@@ -28,12 +28,12 @@ const HomePage = () => {
         background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.5))', // Glassmorphism background
         backdropFilter: 'blur(10px)', // Blur effect
         minHeight: '100vh',
+        minWidth: '100vw',
         fontFamily: 'Poppins, Arial, sans-serif',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'space-between', // Adjust for footer
-        padding: '20px',
       }}
     >
       <div style={{ flex: 1, width: '100%' }}>
